@@ -3,7 +3,7 @@ class User:
     gender = ""
     rate = 0
     need = 0
-    #define default init
+    #define default init func
     def __init__(self, name, age, gender, weight, height, activity):
         self.name = name
         self.age = age
