@@ -39,6 +39,7 @@ class User:
         # if the user is extra active, use this formula
         if self.activity == 5:
             User.need = User.rate * 1.9
+        # print the user's total daily calorie needs
         print(User.need)
 
 # user information
