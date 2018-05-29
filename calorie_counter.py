@@ -65,7 +65,15 @@ gender = input("What is your gender? (m/f)")
 weight = int(input("Enter your weight (pound)"))
 height = int(input("Enter your height (inch)"))
 activity = int(input("How active are you? (1: little or no exercise; 2: light exercise 1-3 days/week; 3: moderate exercise 3-5 days/week; 4: hard exercise 6-7 days/week; 5: very hard exercise & physical job or 2x training)"))
-calories = int(input("How many calories did you eat today?"))
+# create a loop for the user to enter what they have eaten
+calories = 0
+enteringFood = True
+while enteringFood:
+    food = input("What did you eat today?")
+    calories += int(input("How many calories are in this food?"))
+    if input("Is there anything else? (y/n)") == "n":
+        print("Today you ate %s calories" % calories)
+        enteringFood = False
 user = User(name, age, gender, weight, height, activity, calories)
 
 # calculate this user's bmr and total daily calorie needs

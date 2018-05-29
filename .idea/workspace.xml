@@ -17,8 +17,8 @@
       <file leaf-file-name="calorie_counter.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/calorie_counter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-17">
-              <caret line="62" column="36" lean-forward="true" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
+            <state relative-caret-position="170">
+              <caret line="70" column="19" lean-forward="true" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -147,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1527281185743</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Compare the user's daily calorie needs and their caloie consumption today. The user is informed of whether they will gain, lose, or maintain their weight if they eat the same amount everyday.">
+      <created>1527615907672</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1527615907672</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -205,7 +212,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fixed a comment" />
     <MESSAGE value="User can now insert their information" />
-    <option name="LAST_COMMIT_MESSAGE" value="User can now insert their information" />
+    <MESSAGE value="Compare the user's daily calorie needs and their caloie consumption today. The user is informed of whether they will gain, lose, or maintain their weight if they eat the same amount everyday." />
+    <option name="LAST_COMMIT_MESSAGE" value="Compare the user's daily calorie needs and their caloie consumption today. The user is informed of whether they will gain, lose, or maintain their weight if they eat the same amount everyday." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/calorie_counter.py">
@@ -280,8 +288,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/calorie_counter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="62" column="36" lean-forward="true" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
+        <state relative-caret-position="170">
+          <caret line="70" column="19" lean-forward="true" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
         </state>
       </provider>
     </entry>
