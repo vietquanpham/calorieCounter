@@ -4,13 +4,14 @@ class User:
     rate = 0
     need = 0
     # define default init func
-    def __init__(self, name, age, gender, weight, height, activity):
+    def __init__(self, name, age, gender, weight, height, activity, calories):
         self.name = name
         self.age = age
         self.gender = gender
         self.weight = weight
         self.height = height
         self.activity = activity
+        self.calories = calories
 
     # calculate the user's BMR (Basal Metabolic Rate)
     def bmr(self):
@@ -41,6 +42,21 @@ class User:
             User.need = User.rate * 1.9
         # print the user's total daily calorie needs
         print("You need %s calories everyday in order to maintain your current weight" % User.need)
+    # compare the user's total daily calorie needs with their calorie consumption today
+    def compare(self):
+        # define difference between the user's total daily calorie needs and their calorie consumption today
+        difference = abs(User.need - self.calories)
+        # define the number of pounds the user will gain or lose (500 calories = 1 pound)
+        pound = difference/500
+        # if the user eats more than they needs
+        if self.calories > User.need:
+            print("If you eat like this everyday, you will gain %s lb per week" % pound)
+        # if the user eats less than they needs
+        elif self.calories < User.need:
+            print("If you eat like this everyday, you will lose %s lb per week" % pound)
+        # if the user eats as much as what they needs
+        elif self.calories == User.need:
+            print("If you eat like this everyday, you will maintain your current weight")
 
 # user inserts their information
 name = input("What is your name?")
@@ -49,11 +65,17 @@ gender = input("What is your gender? (m/f)")
 weight = int(input("Enter your weight (pound)"))
 height = int(input("Enter your height (inch)"))
 activity = int(input("How active are you? (1: little or no exercise; 2: light exercise 1-3 days/week; 3: moderate exercise 3-5 days/week; 4: hard exercise 6-7 days/week; 5: very hard exercise & physical job or 2x training)"))
-user = User(name, age, gender, weight, height, activity)
+calories = int(input("How many calories did you eat today?"))
+user = User(name, age, gender, weight, height, activity, calories)
 
 # calculate this user's bmr and total daily calorie needs
 user.bmr()
 user.daily_cal()
+user.compare()
+
+
+
+
 
 
 
