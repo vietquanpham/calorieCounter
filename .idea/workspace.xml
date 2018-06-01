@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="dbda7d4f-8cd6-454d-88a2-a2e9dbf74b0c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calorie_counter.py" beforeDir="false" afterPath="$PROJECT_DIR$/calorie_counter.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,8 +16,8 @@
       <file leaf-file-name="calorie_counter.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/calorie_counter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+            <state relative-caret-position="1071">
+              <caret line="63" column="46" lean-forward="true" selection-start-line="63" selection-start-column="46" selection-end-line="63" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -205,19 +204,32 @@
       <option name="project" value="LOCAL" />
       <updated>1527620516157</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Load USDA dictionary">
+      <created>1527882501775</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1527882501775</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Attempt to load USDA dictionary">
+      <created>1527883776740</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1527883776740</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24941361" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24941361" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5008026" side_tool="true" weight="0.32991803" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32874355" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919742" visible="true" weight="0.27710843" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919742" weight="0.27710843" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -265,7 +277,9 @@
     <MESSAGE value="User can now insert their information" />
     <MESSAGE value="Compare the user's daily calorie needs and their caloie consumption today. The user is informed of whether they will gain, lose, or maintain their weight if they eat the same amount everyday." />
     <MESSAGE value="Create a loop for the user to enter what they've eaten, then calculate their today's total calorie consumption" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create a loop for the user to enter what they've eaten, then calculate their today's total calorie consumption" />
+    <MESSAGE value="Load USDA dictionary" />
+    <MESSAGE value="Attempt to load USDA dictionary" />
+    <option name="LAST_COMMIT_MESSAGE" value="Attempt to load USDA dictionary" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/calorie_counter.py">
@@ -397,8 +411,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/calorie_counter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+        <state relative-caret-position="1071">
+          <caret line="63" column="46" lean-forward="true" selection-start-line="63" selection-start-column="46" selection-end-line="63" selection-end-column="46" />
         </state>
       </provider>
     </entry>
