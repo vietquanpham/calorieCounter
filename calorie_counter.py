@@ -1,4 +1,4 @@
-import gzip, pickle
+import pickle
 
 class User:
     name = ""
@@ -61,9 +61,10 @@ class User:
             print("If you eat like this everyday, you will maintain your current weight")
 
 # open USDA pickle file
-with gzip.open('usda.pickle.gz', 'rb') as ifp:
-    pickle.load(ifp)
-    
+infile = open('usda.pickle.gz', 'rb')
+food_dict = pickle.load(infile)
+infile.close()
+print(food_dict)
 
 # user inserts their information
 name = input("What is your name?")
