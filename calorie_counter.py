@@ -1,3 +1,5 @@
+import pickle
+
 class User:
     name = ""
     gender = ""
@@ -57,6 +59,12 @@ class User:
         # if the user eats as much as what they needs
         elif self.calories == User.need:
             print("If you eat like this everyday, you will maintain your current weight")
+
+# open USDA pickle file
+infile = open('usda.pickle.gz', 'rb')
+food_dict = pickle.load(infile)
+infile.close()
+    
 
 # user inserts their information
 name = input("What is your name?")
