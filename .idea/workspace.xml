@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbda7d4f-8cd6-454d-88a2-a2e9dbf74b0c" name="Default" comment="">
+    <list default="true" id="dbda7d4f-8cd6-454d-88a2-a2e9dbf74b0c" name="Default" comment="Reset code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calorie_counter.py" beforeDir="false" afterPath="$PROJECT_DIR$/calorie_counter.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,8 +16,8 @@
       <file leaf-file-name="calorie_counter.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/calorie_counter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="58" column="89" selection-start-line="58" selection-start-column="89" selection-end-line="58" selection-end-column="89" />
+            <state relative-caret-position="1360">
+              <caret line="80" column="16" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -57,6 +56,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -73,7 +73,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -233,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1527884810197</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Reset code">
+      <created>1527885471161</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1527885471161</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -245,7 +251,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5008026" side_tool="true" weight="0.32991803" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32874355" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49919742" visible="true" weight="0.27710843" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919742" weight="0.27710843" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -296,9 +302,17 @@
     <MESSAGE value="Load USDA dictionary" />
     <MESSAGE value="Attempt to load USDA dictionary/ include the pickle file" />
     <MESSAGE value="Attempt to load USDA dictionary" />
-    <option name="LAST_COMMIT_MESSAGE" value="Attempt to load USDA dictionary" />
+    <MESSAGE value="Reset code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reset code" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/calorie_counter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="80" column="16" lean-forward="true" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/calorie_counter.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1071">
@@ -423,8 +437,8 @@
     <entry file="file://$PROJECT_DIR$/pickle test.py" />
     <entry file="file://$PROJECT_DIR$/calorie_counter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="58" column="89" selection-start-line="58" selection-start-column="89" selection-end-line="58" selection-end-column="89" />
+        <state relative-caret-position="1360">
+          <caret line="80" column="16" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="16" />
         </state>
       </provider>
     </entry>
